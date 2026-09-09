@@ -1,0 +1,164 @@
+
+> game-ldr@0.1.0 dev D:\game-ldr
+> pnpm --parallel --filter @game-ldr/web --filter @game-ldr/api dev
+
+Scope: 2 of 11 workspace projects
+apps/api dev$ nest start --watch
+apps/web dev$ next dev
+apps/api dev: [2J[3J[H[[90m16.36.21[0m] Starting compilation in watch mode...
+apps/web dev:    ▲ Next.js 15.5.24
+apps/web dev:    - Local:        http://localhost:3000
+apps/web dev:    - Network:      http://10.8.108.79:3000
+apps/web dev:    - Environments: .env
+apps/web dev:  ✓ Starting...
+apps/web dev:  ✓ Ready in 2.7s
+apps/api dev: [[90m16.36.27[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +82ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mObservabilityModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWorldModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPhotoboothModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAchievementsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProgressionModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +9ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHealthModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRateLimitModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCouplesModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mActivitiesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMediasModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMovieTicketsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCarePackagesModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mVoiceNotesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMemoriesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1/health}:[39m[38;5;3m +86ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +6ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/v1/users}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/users/me, GET} route[39m[38;5;3m +2ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCouplesController {/api/v1/couples}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/join, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/current, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/invite, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/current, DELETE} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/v1/dates}:[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id/complete, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id/cancel, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mActivitiesController {/api/v1/activities}:[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities/recommendation, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities/:id, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCarePackagesController {/api/v1/care-packages}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/reveal, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/items, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/pack, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/send, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/open, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMediasController {/api/v1/media}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/media/:id/sign, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/media/stream/:key, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mVoiceNotesController {/api/v1/voice-notes}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes/:id, DELETE} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMovieTicketsController {/api/v1/movie-tickets}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMemoriesController {/api/v1/memories}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories/:id, DELETE} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/:id/read, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mRealtimeController {/api/v1/realtime}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/realtime/channel, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/realtime/channel/:channel/events, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[ConfigValidator] [39m[32mEnv DATABASE_URL=[configured][39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[ConfigValidator] [39m[32mEnv SUPABASE_PUBLISHABLE_KEY=[configured][39m
+apps/api dev: [32m[Nest] 15400  - [39m08/09/2026, 16.36.30 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+apps/api dev: [2J[3J[H[[90m16.44.29[0m] File change detected. Starting incremental compilation...
+apps/api dev: [2J[3J[H[[90m08.54.56[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m08.55.03[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m08.55.07[0m] File change detected. Starting incremental compilation...
+apps/api dev: node:internal/modules/cjs/loader:1424
+apps/api dev:   throw err;
+apps/api dev:   ^
+apps/api dev: Error: Cannot find module 'D:\game-ldr\apps\api\dist\main'
+apps/api dev:     at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+apps/api dev:     at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+apps/api dev:     at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+apps/api dev:     at Module._load (node:internal/modules/cjs/loader:1227:37)
+apps/api dev:     at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+apps/api dev:     at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+apps/api dev:     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+apps/api dev:     at node:internal/main/run_main_module:33:47 {
+apps/api dev:   code: 'MODULE_NOT_FOUND',
+apps/api dev:   requireStack: []
+apps/api dev: }
+apps/api dev: Node.js v24.12.0
+apps/api dev: ERROR: The process "15240" not found.
+apps/api dev: ERROR: The process "15240" not found.
+apps/api dev: node:child_process:1000
+apps/api dev:     throw err;
+apps/api dev:     ^
+apps/api dev: Error: Command failed: taskkill /pid 15240 /T /F
+apps/api dev: ERROR: The process "15240" not found.
+apps/api dev:     at genericNodeError (node:internal/errors:985:15)
+apps/api dev:     at wrappedFn (node:internal/errors:539:14)
+apps/api dev:     at checkExecSyncError (node:child_process:925:11)
+apps/api dev:     at execSync (node:child_process:997:15)
+apps/api dev:     at treeKillSync (D:\game-ldr\node_modules\.pnpm\@nestjs+cli@11.0.24_@types+node@22.20.1_prettier@3.9.6\node_modules\@nestjs\cli\lib\utils\tree-kill.js:7:38)
+apps/api dev:     at D:\game-ldr\node_modules\.pnpm\@nestjs+cli@11.0.24_@types+node@22.20.1_prettier@3.9.6\node_modules\@nestjs\cli\actions\start.action.js:92:46
+apps/api dev:     at Object.onWatchStatusChange (D:\game-ldr\node_modules\.pnpm\@nestjs+cli@11.0.24_@types+node@22.20.1_prettier@3.9.6\node_modules\@nestjs\cli\lib\compiler\watch-compiler.js:82:17)
+apps/api dev:     at D:\game-ldr\node_modules\.pnpm\typescript@5.9.3\node_modules\typescript\lib\typescript.js:133916:30
+apps/api dev:     at emitFilesAndReportErrors (D:\game-ldr\node_modules\.pnpm\typescript@5.9.3\node_modules\typescript\lib\typescript.js:133737:5)
+apps/api dev:     at result.afterProgramCreate (D:\game-ldr\node_modules\.pnpm\typescript@5.9.3\node_modules\typescript\lib\typescript.js:133912:5) {
+apps/api dev:   status: 128,
+apps/api dev:   signal: null,
+apps/api dev:   output: [
+apps/api dev:     null,
+apps/api dev:     Buffer(0) [Uint8Array] [],
+apps/api dev:     Buffer(39) [Uint8Array] [
+apps/api dev:        69,  82,  82,  79,  82,  58,  32,  84, 104,
+apps/api dev:       101,  32, 112, 114, 111,  99, 101, 115, 115,
+apps/api dev:        32,  34,  49,  53,  50,  52,  48,  34,  32,
+apps/api dev:       110, 111, 116,  32, 102, 111, 117, 110, 100,
+apps/api dev:        46,  13,  10
+apps/api dev:     ]
+apps/api dev:   ],
+apps/api dev:   pid: 19820,
+apps/api dev:   stdout: Buffer(0) [Uint8Array] [],
+apps/api dev:   stderr: Buffer(39) [Uint8Array] [
+apps/api dev:      69,  82,  82,  79,  82,  58,  32,  84, 104,
+apps/api dev:     101,  32, 112, 114, 111,  99, 101, 115, 115,
+apps/api dev:      32,  34,  49,  53,  50,  52,  48,  34,  32,
+apps/api dev:     110, 111, 116,  32, 102, 111, 117, 110, 100,
+apps/api dev:      46,  13,  10
+apps/api dev:   ]
+apps/api dev: }
+apps/api dev: Node.js v24.12.0
+apps/api dev: Failed
+D:\game-ldr\apps\api:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @game-ldr/api@0.1.0 dev: `nest start --watch`
+Exit status 1
+ ELIFECYCLE  Command failed with exit code 1.
+
+D:\game-ldr>

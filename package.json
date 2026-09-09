@@ -1,0 +1,22 @@
+{
+  "name": "game-ldr",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.27.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @game-ldr/web --filter @game-ldr/api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "eslint": "^9.25.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
+  }
+}

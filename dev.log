@@ -1,0 +1,222 @@
+
+> game-ldr@0.1.0 dev D:\game-ldr
+> pnpm --parallel --filter @game-ldr/web --filter @game-ldr/api dev
+
+Scope: 2 of 11 workspace projects
+apps/api dev$ nest start --watch
+apps/web dev$ next dev
+apps/api dev: [2J[3J[H[[90m08.54.59[0m] Starting compilation in watch mode...
+apps/web dev:  ⚠ Port 3000 is in use by process 11872, using available port 3003 instead.
+apps/web dev:    ▲ Next.js 15.5.24
+apps/web dev:    - Local:        http://localhost:3003
+apps/web dev:    - Network:      http://10.8.108.126:3003
+apps/web dev:    - Environments: .env
+apps/web dev:  ✓ Starting...
+apps/web dev:  ✓ Ready in 15.4s
+apps/api dev: [[90m08.55.28[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +87ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mObservabilityModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWorldModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPhotoboothModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAchievementsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProgressionModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +5ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHealthModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRateLimitModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCouplesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mActivitiesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMediasModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMovieTicketsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCarePackagesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mVoiceNotesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMemoriesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1/health}:[39m[38;5;3m +116ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +6ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/v1/users}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/users/me, GET} route[39m[38;5;3m +2ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCouplesController {/api/v1/couples}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/join, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/current, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/invite, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/current, DELETE} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/v1/dates}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id, GET} route[39m[38;5;3m +2ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id/complete, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id/cancel, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mActivitiesController {/api/v1/activities}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities/recommendation, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCarePackagesController {/api/v1/care-packages}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/reveal, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/items, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/pack, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/send, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/open, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMediasController {/api/v1/media}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/media/:id/sign, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/media/stream/:key, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mVoiceNotesController {/api/v1/voice-notes}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes/:id, DELETE} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMovieTicketsController {/api/v1/movie-tickets}:[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMemoriesController {/api/v1/memories}:[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories/:id, DELETE} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/:id/read, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mRealtimeController {/api/v1/realtime}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/realtime/channel, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.32 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/realtime/channel/:channel/events, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.33 [32m    LOG[39m [38;5;3m[ConfigValidator] [39m[32mEnv DATABASE_URL=[configured][39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.33 [32m    LOG[39m [38;5;3m[ConfigValidator] [39m[32mEnv SUPABASE_PUBLISHABLE_KEY=[configured][39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 08.55.33 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 09.53.33 [32m    LOG[39m [38;5;3m[http] [39m[32m{"requestId":"688ebd93c3724cb1afa6921a61a363c7","method":"GET","path":"/api/v1/health","status":200,"durationMs":3076}[39m
+apps/web dev:  ○ Compiling / ...
+apps/web dev:  ✓ Compiled / in 40s (743 modules)
+apps/web dev:  GET / 200 in 54298ms
+apps/web dev:  GET / 200 in 5672ms
+apps/web dev:  GET / 200 in 2726ms
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 09.57.50 [32m    LOG[39m [38;5;3m[http] [39m[32m{"requestId":"7cf9bea117c94af1bf2b1412eebb23be","method":"GET","path":"/api/v1/health","status":200,"durationMs":1420}[39m
+apps/api dev: [32m[Nest] 28176  - [39m09/09/2026, 09.57.54 [32m    LOG[39m [38;5;3m[http] [39m[32m{"requestId":"69d9b411b7fe41fe8e454200511e452b","method":"GET","path":"/favicon.ico","status":404,"durationMs":365}[39m
+apps/web dev:  ○ Compiling /register ...
+apps/web dev:  ✓ Compiled /register in 9.6s (755 modules)
+apps/web dev:  GET /register 200 in 12560ms
+apps/web dev:  GET / 200 in 235ms
+apps/web dev:  GET /register 200 in 41ms
+apps/web dev:  GET /register 200 in 119ms
+apps/web dev:  GET / 200 in 35722ms
+apps/web dev:  GET / 200 in 6808ms
+apps/api dev: [2J[3J[H[[90m10.17.31[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.17.38[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.17.39[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.17.43[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.17.47[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.17.48[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.17.50[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.17.51[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.17.55[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.17.57[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.01[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.02[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.07[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.08[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.08[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.09[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.12[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.12[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.13[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.14[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.22[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.23[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.45[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.48[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.48[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.49[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [2J[3J[H[[90m10.18.52[0m] File change detected. Starting incremental compilation...
+apps/api dev: [[90m10.18.52[0m] Found 0 errors. Watching for file changes.
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.55 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2363ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatabaseModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mEventsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mObservabilityModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWorldModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGamesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPhotoboothModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAchievementsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProgressionModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mThrottlerModule dependencies initialized[39m[38;5;3m +4ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHealthModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRateLimitModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCouplesModule dependencies initialized[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mActivitiesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMediasModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMovieTicketsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNotificationsModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDatesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCarePackagesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mVoiceNotesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRealtimeModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMemoriesModule dependencies initialized[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mHealthController {/api/v1/health}:[39m[38;5;3m +665ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/health, GET} route[39m[38;5;3m +2ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/v1/users}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/users/me, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCouplesController {/api/v1/couples}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/join, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/current, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/invite, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/couples/current, DELETE} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mDatesController {/api/v1/dates}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id/complete, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/dates/:id/cancel, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mActivitiesController {/api/v1/activities}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities/recommendation, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/activities/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCarePackagesController {/api/v1/care-packages}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/reveal, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/items, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/pack, POST} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/send, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/care-packages/:id/open, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMediasController {/api/v1/media}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/media/:id/sign, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/media/stream/:key, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mVoiceNotesController {/api/v1/voice-notes}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes/:id, GET} route[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/voice-notes/:id, DELETE} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMovieTicketsController {/api/v1/movie-tickets}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/movie-tickets/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mMemoriesController {/api/v1/memories}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories/:id, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/memories/:id, DELETE} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNotificationsController {/api/v1/notifications}:[39m[38;5;3m +1ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/notifications/:id/read, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mRealtimeController {/api/v1/realtime}:[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/realtime/channel, GET} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.58 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/v1/realtime/channel/:channel/events, POST} route[39m[38;5;3m +0ms[39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.59 [32m    LOG[39m [38;5;3m[ConfigValidator] [39m[32mEnv DATABASE_URL=[configured][39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.59 [32m    LOG[39m [38;5;3m[ConfigValidator] [39m[32mEnv SUPABASE_PUBLISHABLE_KEY=[configured][39m
+apps/api dev: [32m[Nest] 10956  - [39m09/09/2026, 10.18.59 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +0ms[39m
